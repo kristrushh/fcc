@@ -1,0 +1,4 @@
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  let x = Math.abs(dadYearsOld - 2 * sonYearsOld);
+  return x;// your code here
+}
