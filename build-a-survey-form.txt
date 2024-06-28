@@ -1,0 +1,99 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name
+          <input required type="text" placeholder="Enter your name" id="name" value="name">
+        </label>
+        <label for="email" id="email-label">Email
+          <input required type="email" placeholder="Enter your Email" id="email" value="email">
+        </label>
+        <label for="age" id="number-label">Age (optional)
+          <input type="number" min="10" max="110" placeholder="10" id="number" value="10">
+        </label> 
+        <label>Which option best describes your current role?
+          <select multiple id="dropdown">
+            <option disabled id="dropdown">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="5">Other</option>
+          </select> 
+        </label>  
+          <input type="radio" name="mmm" id="def" checked value="1">
+          <label for="def">Definitely</label>
+          <input type="radio" name="mmm" id="mb" value="2">
+          <label for="mb">Maybe</label>
+          <input type="radio" name="mmm" id="ns" value="3">
+          <label for="ns">Not sure</label>
+        <label>What is your favorite feature of freeCodeCamp?
+            <option selected disabled>Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+        </label>
+        <label>What would you like to see improved? (Check all that apply)
+            <input type="checkbox" id="fep" name="fep" value="1"/>
+            <label for="fep">Front-end Projects</label>
+
+            <input type="checkbox" id="bep" name="bep" value="2"/>
+            <label for="bep">Back-end Projects</label>
+
+            <input type="checkbox" id="dv" name="dv" value="3"/>
+            <label for="dv">Data Visualization</label>
+
+            <input type="checkbox" id="ch" name="ch" value="4"/>
+            <label for="ch">Challenges</label>
+
+            <input type="checkbox" id="osc" name="osc" value="5"/>
+            <label for="osc">Open Source Community</label>
+
+            <input type="checkbox" id="ghr" name="osc" value="6"/>
+            <label for="ghr">Gitter help rooms</label>
+
+            <input type="checkbox" id="vid" name="vid" value="7"/>
+            <label for="vid">Videos</label>
+
+            <input type="checkbox" id="cm" name="cm" value="8"/>
+            <label for="cm">City Meetups</label>
+
+            <input type="checkbox" id="wiki" name="wiki" value="9"/>
+            <label for="wiki">Wiki</label>
+
+            <input type="checkbox" id="frm" name="frm" value="10"/>
+            <label for="frm">Forumfrm</label>
+
+            <input type="checkbox" id="ac" name="ac" value="11"/>
+            <label for="ac">Additional Coursesac</label>
+        </label>
+
+        <label>Any comments or suggestions?
+            <textarea placeholder="Enter your comment here... "></textarea>
+        </label>
+
+        <input type="submit" value="submit" id="submit">
+      </form>
+    </div>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
